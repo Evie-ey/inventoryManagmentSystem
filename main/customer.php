@@ -149,10 +149,10 @@ $finalcode='RS-'.createRandomPassword();
 			<td><?php echo $row['customer_name']; ?></td>
 			<td><?php echo $row['address']; ?></td>
 			<td><?php echo $row['contact']; ?></td>
-			<td><?php echo $row['prod_name']; ?></td>
-			<td>P <?php echo $row['membership_number']; ?>.00</td>
+			<td><?php echo $row['membership_number']; ?></td>
 			<td><?php echo $row['note']; ?></td>
 			<td><?php echo $row['expected_date']; ?></td>
+			<!-- <td><?php echo $row['prod_name']; ?></td> -->
 
 			<td><a  title="Click To Edit Customer" rel="facebox" href="editcustomer.php?id=<?php echo $row['customer_id']; ?>"><button class="btn btn-warning btn-mini"><i class="icon-edit"></i> Edit </button></a>
 			<a href="#" id="<?php echo $row['customer_id']; ?>" class="delbutton" title="Click To Delete"><button class="btn btn-danger btn-mini"><i class="icon-trash"></i> Delete</button></a></td>
